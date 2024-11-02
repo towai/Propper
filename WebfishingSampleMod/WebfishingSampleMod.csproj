@@ -12,10 +12,6 @@
         <Reference Include="Serilog" Private="false"/>
     </ItemGroup>
 
-    <ItemGroup>
-        <None Include="../manifest.json" CopyToOutputDirectory="PreserveNewest"/>
-    </ItemGroup>
-
     <Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(GDWeavePath)' != ''">
         <PropertyGroup>
             <IsWindows Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))'">true</IsWindows>
