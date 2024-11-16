@@ -1,17 +1,21 @@
 
-id = "WebfishingSampleMod"
-name = "Webfishing Sample Mod"
-description = "This is a sample mod."
+id = "twi.Propper"
+name = "Propper"
+description = "A simple WEBFISHING mod that allows you to increase the prop limit."
 version = "1.0.0"
-homepage = "https://github.com/NotNite/WebfishingSampleMod"
-author = "You!"
+homepage = "https://crouton.net"
+author = "twi"
 
 icon = "icon.png"
 readme = "README.md"
 
 [project]
-csharp = "./WebfishingSampleMod/WebfishingSampleMod.csproj"
-godot = "./project/project.godot"
+csharp = "./twi.Propper/twi.Propper.csproj"
 
 [[dependencies]]
-thunderstore_version = "NotNet-GDWeave-2.0.13"
+thunderstore_version = "NotNet-GDWeave-2.0.14"
+
+[[dependencies]]
+id = "TackleBox"
+thunderstore_version = "PuppyGirl-TackleBox-0.4.3"
+

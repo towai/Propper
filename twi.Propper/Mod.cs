@@ -1,14 +1,14 @@
 ﻿using GDWeave;
 
-namespace WebfishingSampleMod;
+namespace twi.Propper;
 
 public class Mod : IMod {
     public Config Config;
 
     public Mod(IModInterface modInterface) {
         this.Config = modInterface.ReadConfig<Config>();
-        modInterface.RegisterScriptMod(new ExampleScriptMod());
-        modInterface.Logger.Information("Hello, world!");
+        modInterface.RegisterScriptMod(new PropperScriptMod(modInterface,Config));
+        modInterface.Logger.Information($"Propper: Prop limit is {Config.NewLimit}");
     }
 
     public void Dispose() {
