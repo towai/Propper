@@ -17,5 +17,5 @@ thunderstore_version = "NotNet-GDWeave-2.0.14"
 
 [[dependencies]]
 id = "TackleBox"
-thunderstore_version = "PuppyGirl-TackleBox-0.4.3"
+thunderstore_version = "PuppyGirl-TackleBox-0.5.1"
 
