@@ -3,7 +3,7 @@ id = "twi.Propper"
 name = "Propper"
 description = "A simple WEBFISHING mod that allows you to increase the prop limit."
 version = "1.0.0"
-homepage = "https://crouton.net"
+homepage = "https://github.com/towai/Propper"
 author = "twi"
 
 icon = "icon.png"
